@@ -1,0 +1,84 @@
+
+[[blood_pressure]]
+date = "06.10.2026"
+time = "8:00" # This means morning time
+upper_pressure = 101
+lower_pressure = 63
+pulse = 53
+
+[[blood_pressure]]
+date = "06.10.2026"
+time = "20:00" # This means evening time
+upper_pressure = 100
+lower_pressure = 65
+pulse = 78
+
+[[blood_pressure]]
+date = "07.10.2026"
+time = "8:00" # This means morning time
+upper_pressure = 112
+lower_pressure = 65
+pulse = 78
+
+[[blood_pressure]]
+date = "07.10.2026"
+time = "20:00" # This means evening time
+upper_pressure = 110
+lower_pressure = 66
+pulse = 58
+
+[[blood_pressure]]
+date = "08.10.2026"
+time = "8:00" # This means morning time
+upper_pressure = 96
+lower_pressure = 62
+pulse = 68
+
+[[blood_pressure]]
+date = "08.10.2026"
+time = "20:00" # This means evening time
+upper_pressure = 93
+lower_pressure = 60
+pulse = 76
+
+[[blood_pressure]]
+date = "09.10.2026"
+time = "8:00" # This means morning time
+upper_pressure = 106
+lower_pressure = 68
+pulse = 81
+
+[[blood_pressure]]
+date = "09.10.2026"
+time = "20:00" # This means evening time
+upper_pressure = 109
+lower_pressure = 68
+pulse = 74
+
+[[blood_pressure]]
+date = "10.10.2026"
+time = "8:00" # This means morning time
+upper_pressure = 100
+lower_pressure = 70
+pulse = 101
+
+[[blood_pressure]]
+date = "10.10.2026"
+time = "13:20"
+upper_pressure = 120
+lower_pressure = 70
+# Pulse is none here
+comment = "Лёгкое давление в зоне лба и висков, немного болит но дискомфорт чувствуется"
+
+[[blood_pressure]]
+date = "10.10.2026"
+time = "16:10"
+upper_pressure = 110
+lower_pressure = 68
+pulse = 86
+comment = "Боль прошла"
+
+[[symptom]]
+date = "10.10.2026"
+time = "20:00"
+description = "Немного болит голова, болит ухо"

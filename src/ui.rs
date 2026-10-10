@@ -216,10 +216,8 @@ fn hover_label(hover: &HoverPosition<'_>, start: NaiveDateTime, notes: &[(f64, S
                 plot_name,
                 position.y,
             );
-            if *plot_name == "Comment" {
-                if let Some((_, text)) = notes.iter().find(|(x, _)| (*x - position.x).abs() < 0.00001) {
-                    label.push_str(&format!("\n{text}"));
-                }
+            if let Some((_, text)) = notes.iter().find(|(x, _)| (*x - position.x).abs() < 0.1) {
+                label.push_str(&format!("\n{text}"));
             }
             Some(label)
         }
